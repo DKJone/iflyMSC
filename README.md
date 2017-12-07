@@ -1,3 +1,22 @@
+本工程主要用于使用pod方式导入讯飞基础类库（官方未提供pod方式管理）
+========
+使用方法：在podfile加入前两行，即可使用
+```  
+#podfile 示例
+source 'https://github.com/DKJone/PrivatePods.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+
+target 'youProject' do
+
+  #语音转换
+  pod 'iflyMSC'
+ 
+end
+
+
+```  
+
 ------------------------------------
 1.164 版本信息 
 20171108
